@@ -36,9 +36,9 @@ export type ProjectType = {
 
 export const projectsList: ProjectType[] = [
   {
-    name: "Minar-e-Pakiatan Redesign",
+    name: "Minar-e-Pakiatan Park Redesign",
     description:
-      "A new design and construction of Minar-e-Pakistan",
+      "A new design and construction of Minar-e-Pakistan Park and Badshahi Masjid",
     image: BigBurgh,
     code: "https://github.com",
     slug: "Minar-e-Pakistan",
