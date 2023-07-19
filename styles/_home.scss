@@ -142,15 +142,15 @@
         }
       }
       .peep-image {
-        width: 100px;
+        width: 140px;
         @media (min-width: 768px) {
           width: 200px;
         }
         @media (min-width: 1280px) {
-          width: 300px;
+          width: 400px;
         }
         @media (max-height: 800px) {
-          width: 200px;
+          width: 500px;
         }
       }
     }

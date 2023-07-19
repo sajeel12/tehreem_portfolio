@@ -2,7 +2,7 @@ import { useRef, useState } from "react";
 import { GetServerSidePropsContext, InferGetServerSidePropsType } from "next";
 import { FaGithub, FaLinkedin, FaTwitter, FaChevronDown } from "react-icons/fa";
 import { motion } from "framer-motion";
-import MyPeep from "../images/My_Peep.png";
+import MyPeep from "../images/waqas_bg.png";
 
 import Header from "../components/header";
 import IntroOverlay from "../components/intro-overlay";
@@ -53,8 +53,8 @@ export default function Homepage({
       className="container"
     >
       <SEO
-        title="Alexander Grattan | Pittsburgh Software Developer"
-        url="https://agrattan.com/"
+        title="Waqas Aslam pha | Entrepreneur"
+        url="http://sajeel.rf.gd/"
       />
       {animationComplete === false && <IntroOverlay />}
       <div className="after-animation">
@@ -66,13 +66,13 @@ export default function Homepage({
             </h1>
             <img
               src={MyPeep.src}
-              alt="Alexander's Peep"
+              alt="Waqas Aslam"
               className="peep-image"
             />
           </div>
           <p className="job-title">
             <span className="text-reveal">
-              Alexander Grattan / Software Developer
+              Waqas Aslam / Entrepreneur / PHA
             </span>
           </p>
           <div className="scroll-indicator-container">
@@ -90,7 +90,7 @@ export default function Homepage({
         <footer>
           <h2>Connect with Me</h2>
           <ul className="footer-links">
-            <li>
+            {/* <li>
               <motion.a
                 href="https://drive.google.com/file/d/1PgvpHThs5XjTwGZgib9ZTVLa8QbhulWp/view?usp=sharing"
                 target="_blank"
@@ -127,7 +127,7 @@ export default function Homepage({
                 <FaLinkedin />
                 <span className="footer-hidden-text">LinkedIn</span>
               </motion.a>
-            </li>
+            </li> */}
             <li>
               <motion.a
                 href="https://twitter.com/agrattan0820"
@@ -137,8 +137,9 @@ export default function Homepage({
                 whileTap={{ scale: 0.95 }}
                 title="Follow Alexander on Twitter"
               >
-                <FaTwitter />
-                <span className="footer-hidden-text">Twitter</span>
+                {/* <FaTwitter /> */}
+                03138484815
+                <span className="footer-hidden-text">Contact Waqas</span>
               </motion.a>
             </li>
           </ul>

@@ -11,21 +11,21 @@ const Header = ({ logoLink }: HeaderProps) => {
     <header>
       <nav className="nav">
         <div className="space-between">
-          <Link href={logoLink}>
-            <div className="logo">AG</div>
-          </Link>
+          {/* <Link > */}
+            <div className="logo">Waqas Aslam</div>
+          {/* </Link> */}
           <ul className="nav-list">
             <li>
-              <motion.a
+              {/* <motion.a
                 href="https://drive.google.com/file/d/1PgvpHThs5XjTwGZgib9ZTVLa8QbhulWp/view?usp=sharing"
                 target="_blank"
                 rel="noopener noreferrer"
                 whileHover={{ scale: 1.1 }}
                 whileTap={{ scale: 0.9 }}
-                title="Download Alexander's Resume"
+                title="Download Waqas's Resume"
               >
                 Resume
-              </motion.a>
+              </motion.a> */}
             </li>
             <li>
               <motion.a
@@ -36,8 +36,8 @@ const Header = ({ logoLink }: HeaderProps) => {
                 whileTap={{ scale: 0.95 }}
                 title="Go to Alexander's GitHub"
               >
-                <FaGithub />
-                <span className="header-hidden-text">GitHub</span>
+                {/* <FaGithub /> */}
+                {/* <span className="header-hidden-text">GitHub</span> */}
               </motion.a>
             </li>
             <li>
@@ -47,10 +47,10 @@ const Header = ({ logoLink }: HeaderProps) => {
                 rel="noopener noreferrer"
                 whileHover={{ scale: 1.05 }}
                 whileTap={{ scale: 0.95 }}
-                title="Connect with Alexander on LinkedIn"
+                title="Connect with Waqas on LinkedIn"
               >
-                <FaLinkedin />
-                <span className="header-hidden-text">LinkedIn</span>
+                {/* <FaLinkedin />
+                <span className="header-hidden-text">LinkedIn</span> */}
               </motion.a>
             </li>
           </ul>
