@@ -12,7 +12,7 @@ const Header = ({ logoLink }: HeaderProps) => {
       <nav className="nav">
         <div className="space-between">
           {/* <Link > */}
-            <div className="logo">Waqas Aslam</div>
+            <div className="logo">Tehreem Kamal</div>
           {/* </Link> */}
           <ul className="nav-list">
             <li>
@@ -34,7 +34,7 @@ const Header = ({ logoLink }: HeaderProps) => {
                 rel="noopener noreferrer"
                 whileHover={{ scale: 1.05 }}
                 whileTap={{ scale: 0.95 }}
-                title="Go to Alexander's GitHub"
+                title="Go to Tehreem's GitHub"
               >
                 {/* <FaGithub /> */}
                 {/* <span className="header-hidden-text">GitHub</span> */}

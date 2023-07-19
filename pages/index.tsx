@@ -2,7 +2,7 @@ import { useRef, useState } from "react";
 import { GetServerSidePropsContext, InferGetServerSidePropsType } from "next";
 import { FaGithub, FaLinkedin, FaTwitter, FaChevronDown } from "react-icons/fa";
 import { motion } from "framer-motion";
-import MyPeep from "../images/waqas_bg.png";
+import MyPeep from "../images/thf.png";
 
 import Header from "../components/header";
 import IntroOverlay from "../components/intro-overlay";
@@ -62,7 +62,7 @@ export default function Homepage({
         <main className="main-home">
           <div className="cta">
             <h1 className="title">
-              I create<span className="playful"> playful </span> experiences.
+              I create<span className="playful"> awfull </span> Websites.
             </h1>
             <img
               src={MyPeep.src}
@@ -72,7 +72,7 @@ export default function Homepage({
           </div>
           <p className="job-title">
             <span className="text-reveal">
-              Waqas Aslam / Entrepreneur / PHA
+              Tehreem Kamal / Developer 
             </span>
           </p>
           <div className="scroll-indicator-container">
@@ -139,7 +139,7 @@ export default function Homepage({
               >
                 {/* <FaTwitter /> */}
                 03138484815
-                <span className="footer-hidden-text">Contact Waqas</span>
+                <span className="footer-hidden-text">Contact Tehreem</span>
               </motion.a>
             </li>
           </ul>
