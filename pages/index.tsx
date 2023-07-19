@@ -138,7 +138,7 @@ export default function Homepage({
                 title="Follow Alexander on Twitter"
               >
                 {/* <FaTwitter /> */}
-                03138484815
+                tehreemkamal0@gmail.com
                 <span className="footer-hidden-text">Contact Tehreem</span>
               </motion.a>
             </li>
