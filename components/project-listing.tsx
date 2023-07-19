@@ -70,7 +70,7 @@ const ProjectListing = ({ project }: ProjectListingProps) => {
                 Open Site
               </motion.a>
             )}
-            {code && (
+            {/* {code && (
               <motion.a
                 href={code}
                 target="_blank"
@@ -82,7 +82,7 @@ const ProjectListing = ({ project }: ProjectListingProps) => {
               >
                 View Code
               </motion.a>
-            )}
+            )} */}
           </motion.div>
         </div>
       </div>
