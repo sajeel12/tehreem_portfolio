@@ -53,7 +53,7 @@ export default function Homepage({
       className="container"
     >
       <SEO
-        title="Waqas Aslam pha | Entrepreneur"
+        title="Tehreem Kamal | Developer"
         url="http://sajeel.rf.gd/"
       />
       {animationComplete === false && <IntroOverlay />}
@@ -66,7 +66,7 @@ export default function Homepage({
             </h1>
             <img
               src={MyPeep.src}
-              alt="Waqas Aslam"
+              alt="Tehreem Kamal"
               className="peep-image"
             />
           </div>
