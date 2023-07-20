@@ -130,12 +130,12 @@ export default function Homepage({
             </li> */}
             <li>
               <motion.a
-                href="https://twitter.com/agrattan0820"
+                href="https://twitter.com/"
                 target="_blank"
                 rel="noopener noreferrer"
                 whileHover={{ scale: 1.05 }}
                 whileTap={{ scale: 0.95 }}
-                title="Follow Alexander on Twitter"
+                title="Call Tehreem "
               >
                 {/* <FaTwitter /> */}
                 tehreemkamal0@gmail.com
