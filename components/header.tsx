@@ -36,21 +36,21 @@ const Header = ({ logoLink }: HeaderProps) => {
                 whileTap={{ scale: 0.95 }}
                 title="Go to Tehreem's GitHub"
               >
-                {/* <FaGithub /> */}
-                {/* <span className="header-hidden-text">GitHub</span> */}
+                {/* <FaGithub />
+                <span className="header-hidden-text">GitHub</span> */}
               </motion.a>
             </li>
             <li>
               <motion.a
-                href="https://www.linkedin.com/in/alexander-grattan/"
+                href="https://www.linkedin.com/in/tehreem-kamal-1b4079202"
                 target="_blank"
                 rel="noopener noreferrer"
                 whileHover={{ scale: 1.05 }}
                 whileTap={{ scale: 0.95 }}
-                title="Connect with Waqas on LinkedIn"
+                title="Connect with Tehreem on LinkedIn"
               >
-                {/* <FaLinkedin />
-                <span className="header-hidden-text">LinkedIn</span> */}
+                <FaLinkedin />
+                <span className="header-hidden-text">LinkedIn</span>
               </motion.a>
             </li>
           </ul>

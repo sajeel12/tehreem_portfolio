@@ -114,20 +114,20 @@ export default function Homepage({
                 <FaGithub />
                 <span className="footer-hidden-text">GitHub</span>
               </motion.a>
-            </li>
+            </li>*/}
             <li>
               <motion.a
-                href="https://www.linkedin.com/in/alexander-grattan/"
+                href="https://www.linkedin.com/in/tehreem-kamal-1b4079202"
                 target="_blank"
                 rel="noopener noreferrer"
                 whileHover={{ scale: 1.1 }}
                 whileTap={{ scale: 0.9 }}
-                title="Connect with Alexander on LinkedIn"
+                title="Connect with Tehreem on LinkedIn"
               >
                 <FaLinkedin />
                 <span className="footer-hidden-text">LinkedIn</span>
               </motion.a>
-            </li> */}
+            </li> 
             <li>
               <motion.a
                 href="https://twitter.com/"
