@@ -65,7 +65,7 @@ export default function Homepage({
               I create<span className="playful"> awfull </span> Websites.
             </h1>
             <img
-              // src={MyPeep.src}
+              src={MyPeep.src}
               alt="Tehreem Kamal image"
               className="peep-image"
             />
