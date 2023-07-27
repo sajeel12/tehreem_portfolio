@@ -40,6 +40,7 @@ const Header = ({ logoLink }: HeaderProps) => {
                 <span className="header-hidden-text">GitHub</span> */}
               </motion.a>
             </li>
+            
             <li>
               <motion.a
                 href="https://www.linkedin.com/in/tehreem-kamal-1b4079202"
@@ -61,3 +62,4 @@ const Header = ({ logoLink }: HeaderProps) => {
 };
 
 export default Header;
+

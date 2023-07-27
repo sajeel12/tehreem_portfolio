@@ -12,7 +12,7 @@ const SEO = ({ title, url, description }: SEOProps) => {
       <meta name="viewport" content="width=device-width, initial-scale=1" />
       <meta charSet="utf-8" />
       <meta
-        name="description"
+        name="tehreem kamal developer"
         content={description ?? "Website for Tehreem Kamal, an Developer  working as Frontend Developer "} ></meta>
       <meta property="og:site_name" content={title} />
       <meta property="og:url" content={url} />
