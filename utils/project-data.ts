@@ -1,7 +1,7 @@
 import { StaticImageData } from "next/image";
 
 import BigBurgh from "../images/big-burgh.png";
-import SecretPittsburgh from "../images/secret_pittsburgh.png";
+import StudyRoom from "../images/studyroom.png";
 import SecretPittsburghMobile from "../images/secret_pittsburgh_small.png";
 import PollockIsShit from "../images/Pollock_Is_Shit_Screenshot.png";
 import PollockIsShitMobile from "../images/Pollock_is_Shit_OG.png";
@@ -36,25 +36,25 @@ export type ProjectType = {
 
 export const projectsList: ProjectType[] = [
   {
-    name: "Frontend Design",
+    name: "Ezehome Site (Django)",
     description:
-      "A Beutiful frontend of Minar-e-Pakistan ",
+      "Whole Backend Design is written by me",
     image: BigBurgh,
+    link: "https://ezehome.net/",
     code: "https://github.com",
-    slug: "Minar-e-Pakistan",
-    tools: ["React", "Django"],
+    slug: "Django-Developer",
+    tools: [ "Django","HTML,CSS"],
   },
-  // {
-  //   name: "Secret Pittsburgh",
-  //   description:
-  //     "Website for the Secret Pittsburgh class at the University of Pittsburgh (ENGLIT 1412) dedicated to uncovering hidden spaces and unusual places in the city of Pittsburgh.",
-  //   image: SecretPittsburgh,
-  //   mobileImage: SecretPittsburghMobile,
-  //   link: "https://secretpittsburgh.org/",
-  //   code: "https://github.com/agrattan0820/secret-pittsburgh",
-  //   slug: "secret-pittsburgh",
-  //   tools: ["React/Gatsby", "Tailwind CSS"],
-  // },
+  {
+    name: "StudyRoom Site (Django)",
+    description:
+      "I Developed Complete Functional Study Room in Django for a Customer with chat functionality and much more",
+    image: StudyRoom,
+    link: "https://sajeel.pythonanywhere.com/",
+    code: "https://github.com",
+    slug: "Django-Developer",
+    tools: [ "FullStack Django","HTML,CSS"],
+  },
   // {
   //   name: "Pitt CSC",
   //   description:
