@@ -30,7 +30,7 @@ export default function Post(props: PostPageProps) {
       className="container"
     >
       <SEO
-        title={`${props?.title} | Alexander Grattan`}
+        title={`${props?.title} | Tehreem Kamal`}
         url={`https://agrattan.com/blog/${props.slug}`}
       />
       <Header logoLink={`/`} />

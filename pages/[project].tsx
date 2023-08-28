@@ -41,7 +41,7 @@ const Project: NextPage<InferGetStaticPropsType<typeof getStaticProps>> = ({
   return (
     <motion.div exit={{ opacity: 0 }} className="container">
       <SEO
-        title={`${projectData?.name} | Alexander Grattan`}
+        title={`${projectData?.name} | Tehreem Kamal`}
         url={`https://agrattan.com/${projectData.slug}`}
         description={projectData.description}
       />
